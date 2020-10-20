@@ -1,7 +1,7 @@
 language: go
-arch :
-- amd64
-- ppc64le
+arch: 
+  - amd64
+  - ppc64le
 go_import_path: github.com/jarcoal/httpmock
 
 sudo: false
@@ -19,7 +19,7 @@ matrix:
     - go: 1.15.x
       env:
         - USE_LINTER=1
-     install:
+      install:
         - wget -O - -q https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $GOPATH/bin v1.30.0
       after_success:
         - go get github.com/mattn/goveralls
