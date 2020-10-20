@@ -17,7 +17,8 @@ matrix:
     - go: 1.13.x
     - go: 1.14.x
     - go: 1.15.x
-      arch: ppc64le
+     #power soup
+     arch: ppc64le
      - go: 1.7.x
       arch: ppc64le
     - go: 1.8.x
@@ -35,7 +36,6 @@ matrix:
     - go: 1.14.x
       arch: ppc64le
     - go: 1.15.x
-
       
       env:
         - USE_LINTER=1
