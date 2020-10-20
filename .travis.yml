@@ -21,6 +21,8 @@ matrix:
         - USE_LINTER=1
      #power soup
      arch: ppc64le
+  matrix:
+    include:
     - go: 1.7.x
     - go: 1.8.x
     - go: 1.9.x
