@@ -20,7 +20,6 @@ matrix:
  # POWER SUPPORT
 matrix:
   include:
-  arch: ppc64le
     - go: 1.7.x
     - go: 1.8.x
     - go: 1.9.x
@@ -30,6 +29,7 @@ matrix:
     - go: 1.13.x
     - go: 1.14.x
     - go: 1.15.x
+    arch: ppc64le
 
       env:
         - USE_LINTER=1
