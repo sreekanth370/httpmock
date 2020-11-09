@@ -14,26 +14,7 @@ matrix:
     - go: 1.13.x
     - go: 1.14.x
     - go: 1.15.x
- #before_install
-    arch: ppc64le
-    - go: 1.7.x
-    arch: ppc64le
-    - go: 1.8.x
-    arch: ppc64le
-    - go: 1.9.x
-    arch: ppc64le
-    - go: 1.10.x
-    arch: ppc64le
-    - go: 1.11.x
-    arch: ppc64le
-    - go: 1.12.x
-    arch: ppc64le
-    - go: 1.13.x
-    arch: ppc64le
-    - go: 1.14.x
-    arch: ppc64le
-    - go: 1.15.x
-      2.x
+ 
       - nv:
         - USE_LINTER=1
       install:
