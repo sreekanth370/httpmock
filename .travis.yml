@@ -1,5 +1,5 @@
 language: go
-arch: 
+arch:
   - amd64
   - ppc64le
 go_import_path: github.com/jarcoal/httpmock
